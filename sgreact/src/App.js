@@ -7,8 +7,6 @@ import Contacto from './components/contacto';
 import Servicios from './components/servicios';
 import Nosotros from './components/nosotros';
 import SeguiTuPedido from './components/seguitupedido';
-import UserPanel from './components/userpanel';
-import ClientPanel from './components/clientpanel';
 
 function App() {
   return (
@@ -21,8 +19,6 @@ function App() {
           <Route path="/servicios" element={<Servicios />} />
           <Route path="/nosotros" element={<Nosotros />} />
           <Route path="/seguitupedido" element={<SeguiTuPedido />} />
-          <Route path="/userpanel" element={<UserPanel />} />
-          <Route path="/clientpanel" element={<ClientPanel />} />
         </Routes>
         <Footer />
       </div>
