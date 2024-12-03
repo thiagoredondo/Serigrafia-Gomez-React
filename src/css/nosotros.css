@@ -1,0 +1,134 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, li {
+  list-style: none;
+}
+
+h1 {
+  font-size: 2.8rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2.2rem;
+}
+
+.wrap-cta-us {
+  padding: 1.5rem 0;
+}
+
+.cta-a-us {
+  color: #fff;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  background-color: #76c5f0;
+  padding: 0.5rem 1rem;
+  border-radius: 0.2rem;
+}
+
+.hero-section-us {
+  flex: 1;
+  height: 100%;
+  background: url(/public/Imagenes/IMG-20220824-WA0016.jpg) center no-repeat;
+  background-size: cover;
+  background-color: rgba(106, 141, 163, 0.7);
+  background-blend-mode: multiply;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap-hero-section-us {
+  max-width: 600px;
+  color: #fff;
+  padding: 0 25%;
+  font-weight: bold;
+}
+
+.wrap-social-logos-us ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  align-items: flex-start;
+  margin: 0;
+}
+.wrap-social-logos-us ul .social-logo-us {
+  max-width: 50px;
+  width: 100%;
+  padding: 1rem;
+}
+
+.footer-creds-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #313638;
+  height: 55px;
+}
+
+@media (max-width: 480px) {
+  html, body {
+    overflow: hidden;
+  }
+  p {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  .cta-a-us {
+    font-size: 0.6rem;
+    padding: 5px;
+  }
+  .wrap-hero-section-us {
+    padding: 5%;
+  }
+  .footer-creds-us {
+    text-align: center;
+    padding: 0 0.5rem;
+  }
+  .footer-creds-us p {
+    font-size: 0.6rem;
+    font-weight: 100;
+  }
+}
+@media (min-width: 481px) {
+  html, body {
+    height: 100%;
+  }
+  .hero-section-us {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-section-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=nosotros.css.map */
